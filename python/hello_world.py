@@ -6,7 +6,7 @@ mc = minecraft.Minecraft.create()
 
 PHRASES = ('gowies', 'hi', 'what\'s up',':)','hello','I am cool','wowweeee')
 
-for i in range(100):
+for i in range(10):
     print(i)
     phrase = PHRASES[random.randint(0,len(PHRASES))-1]
     mc.postToChat(phrase)
