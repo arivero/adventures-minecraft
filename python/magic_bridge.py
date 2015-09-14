@@ -8,7 +8,7 @@ import mcpi.block as block
 import time
 
 bridge = []
-bridge_block = block.LAVA_STATIONARY.id
+bridge_block = block.AIR.id
 
 def main():
     '''
